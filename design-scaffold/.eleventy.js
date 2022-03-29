@@ -9,3 +9,4 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
+npx @11ty/eleventy --serve
