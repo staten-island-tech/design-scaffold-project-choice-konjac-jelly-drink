@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPasshroughCopy("src/style");
-  eleventyConfig.addPasshroughCopy("src/md");
-  eleventyConfig.addPasshroughCopy("src/media");
+  eleventyConfig.addPassthroughCopy("src/style");
+  eleventyConfig.addPassthroughCopy("src/md");
+  eleventyConfig.addPassthroughCopy("src/media");
   return {
     dir: {
       input: "src",
@@ -9,4 +9,3 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
-npx @11ty/eleventy --serve
