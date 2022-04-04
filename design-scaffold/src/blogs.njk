@@ -8,6 +8,18 @@
 </head>
     <body>  
          {% include 'nav.njk' %}
+         <ul class="articles">
+            {%- for post in collections.post -%}
+                <article class="article">
+                     <div class="article.text"> 
+                     <h3 class="article-title">{{post.data.title}}</h3>
+                     <h4 class="article-arthur">By {{post.data.arthur}}</h4>
+                     <a class="article.link" href="{{post.url}}>Continue reading</a>
+                    </div>
+                    <img src="{{post.data.image}}" alt="" class="img-preview">
+                </article>
+            {%- endfor -%}
+         </ul>
          <h1>Blogs</h1>
     </body>
     
