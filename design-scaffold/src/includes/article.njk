@@ -6,10 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="/style.style.css">
 </head>
-    <body>  
-  
-         <ul class="articles"></ul>
-         <h1>Blogs</h1>
-    </body>
-    
+<body>
+    {% include 'nav.njk' %}
+    <h1>{{title}}</h1>
+    {{content | safe}}
+</body>
 </html>
