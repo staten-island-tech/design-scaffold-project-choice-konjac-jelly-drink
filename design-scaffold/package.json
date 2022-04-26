@@ -2,9 +2,9 @@
   "name": "design-scaffold",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.njk",
   "scripts": {
-    "build": "eleventy",
+    "build": "  `",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
