@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTICLES</title>
+    <link rel="stylesheet" href="/style.style.css">
+</head>
+    <body>  
+         <ul class="most-affordable">
+            {%- for post in collections.post -%}
+                <article class="article">
+                     <div class="article.text"> 
+                     <h3 class="article-info">{{post.data.info}}DIOR VERNIS</h3>
+                     <h4 class="article-price">{{post.data.price}}>$28.00</h4>
+                     <h4 class="article-arthur">By {{post.data.arthur}} "Gel Coat" resins with intense purity combined with a Techno-Polymer transform each coat of enamel into a film as smooth and shiny as glass.</h4>
+                      <h4 class="article-date">By {{post.data.date}} "January 1st, 2002</h4>
+                     <a class="article.link" href="{{post.url}}>Read more</a>
+                    </div>
+                    <img src="{{post.data.image}}" alt="https://image.s5a.com/is/image/saks/0428186250666_A10?wid=480&hei=640&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0" class="img-preview">
+                </article>
+
+                  <article class="article-2">
+                     <div class="article.text"> 
+                     <h3 class="article-title">{{post.data.title}}SADDLE NANO POUCH</h3>
+                     <h4 class="article-price">{{post.data.price}}>$800.00</h4>
+                     <h4 class="article-info">By {{post.data.info}} "The nano pouch, crafted in blue Dior Oblique jacquard, honors the Saddle line's emblematic codes with its asymmetric flap and antique gold-finish metal 'D' stirrup. A staple of the women's wardrobe, the accessory is ideal for all the daily essentials. The miniature pouch has a removable chain and may be carried by hand, worn over the shoulder or crossbody.</h4>
+                    <h4 class="article-date">By {{post.data.date}} "January 1st, 2002</h4>
+                     <a class="article.link" href="{{post.url}}>Read more</a>
+                    </div>
+                    <img src="{{post.data.image}}" alt="https://media.dior.com/couture/ecommerce/media/catalog/product/E/S/1638524717_S5654CTZQ_M928_E11_GHC.jpg?imwidth=800" class="img-preview">
+                </article>
+
+                 <article class="article-3">
+                     <div class="article.text"> 
+                     <h3 class="article-title">{{post.data.title}}DIO(R)EVOLUTION RING</h3>
+                     <h4 class="article-price">{{post.data.price}}>$380.00</h4>
+                     <h4 class="article-info">By {{post.data.info}} "The Dio(r)evolution ring is both modern and timeless. Made with gold-finish metal, the style proudly features a central 'DIOR' signature with a crystal pavé. The ring can be paired with other Dio(r)evolution creations.</h4>
+                    <h4 class="article-date">By {{post.data.date}} "January 1st, 2002</h4>
+                     <a class="article.link" href="{{post.url}}>Read more</a>
+                    </div>
+                    <img src="{{post.data.image}}" alt="https://media.dior.com/couture/ecommerce/media/catalog/product/E/U/1648219515_R1009DVOCY_D301_E03_GHC.jpg?imwidth=800" class="img-preview">
+                </article>
+
+                 <article class="article-3">
+                     <div class="article.text"> 
+                     <h3 class="article-title">{{post.data.title}}DWAY SLIDE</h3>
+                     <h4 class="article-price">{{post.data.price}}>$730.00</h4>
+                     <h4 class="article-info">By {{post.data.info}} "The Dway slide has a timeless and emblematic silhouette. The slide's upper features a deep blue embroidered 'CHRISTIAN DIOR signature and instantly stands out. The streamlined shoe slips on easily and offers effortless style.</h4>
+                    <h4 class="article-date">By {{post.data.date}} "January 1st, 2002</h4>
+                     <a class="article.link" href="{{post.url}}>Read more</a>
+                    </div>
+                    <img src="{{post.data.image}}" alt="https://media.dior.com/couture/ecommerce/media/catalog/product/E/U/1648219515_R1009DVOCY_D301_E03_GHC.jpg?imwidth=800" class="img-preview">
+                </article>
+            {%- endfor -%}
+          </ul>
+
+
+         <ul class="cosmetics">
+                 <article class="article-4">
+                     <div class="article.text"> 
+                     <h3 class="article-title">{{post.data.title}}MISS DIOR PERFUME</h3>
+                     <h4 class="article-price">{{post.data.price}}>$142.00</h4>
+                     <h4 class="article-info">By {{post.data.info}} "Echoing its inspiring character, the new Miss Dior fragrance is like an olfactory “millefiori”. Centifolia Rose, with its honeyed and peppery notes, reigns over a delectably creamy velvet heart. It is embroidered with fresh Lily-of-the-Valley notes, an apricot-tinged Peony accord, and powdery Iris notes. Miss Dior is thus built around an elegant, striking bouquet––like a “millefiori” that seems to carry countless flowers in endless colors. At the base, slight notes of tender wood envelop the composition.</h4>
+                    <h4 class="article-date">By {{post.data.date}} "January 1st, 2002</h4>
+                     <a class="article.link" href="{{post.url}}>Read more</a>
+                    </div>
+                    <img src="{{post.data.image}}" alt="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw0a1ee5cf/assets/Y0996347/Y0996347_E05_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=430" class="img-preview">
+                </article>
+
+                 <article class="article-4">
+                     <div class="article.text"> 
+                     <h3 class="article-title">{{post.data.title}}DIOR ADDICT STELLAR HALO SHINE</h3>
+                     <h4 class="article-price">{{post.data.price}}>$38.00</h4>
+                     <h4 class="article-info">By {{post.data.info}} "This balm glides on with incredible sensoriality and instantly melts on contact with the lips. The luscious lip care formula creates a fine film infused with aloe vera for 24h hydration*** and long-lasting comfort, wrapped in the soft, addictive scent of vanilla with a hint of musk.</h4>
+                    <h4 class="article-date">By {{post.data.date}} "January 1st, 2002</h4>
+                     <a class="article.link" href="{{post.url}}>Read more</a>
+                    </div>
+                    <img src="{{post.data.image}}" alt="https://cdn.shopify.com/s/files/1/0253/5954/8497/products/3348901513470_1_b5f4c003-0eda-420f-b4d5-25954c990390_450x.jpg?v=1585608710">
+                </article>
+         </ul>
+         
+         <h1>Blogs</h1>
+    </body>
+    
+</html>
+
+
+
+
