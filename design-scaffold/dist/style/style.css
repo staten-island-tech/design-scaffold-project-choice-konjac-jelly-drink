@@ -1,9 +1,6 @@
-@import url("./variables.css");
+@import url("./style/variables.css");
+@import url("");
 
-body {
+body{
     background-color: #EEEADD;
-}
-
-.header-container {
-
 }
