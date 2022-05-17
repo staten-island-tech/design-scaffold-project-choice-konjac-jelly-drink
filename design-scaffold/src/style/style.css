@@ -33,6 +33,7 @@ body {
   font-style: italic;
   text-align: center;
   padding: 2rem;
+  text-decoration: underline;
 }
 
 .header-desc {
@@ -43,11 +44,26 @@ body {
 }
 
 .header-link {
+  font-size: 2rem;
+  padding: 1vh;
+  margin: 2rem;
+  color: rgb(47, 17, 4);
+  font-weight: 800;
 }
 
 .header-img {
   width: 35%;
   align-items: center;
   margin-top: 2rem;
-  margin-left: 70rem;
+  margin-left: 40rem;
+  box-shadow: 1rem 1rem 1rem rgb(199, 183, 177);
+}
+
+.buttons {
+  background-color: #ede3d8;
+}
+
+.flowers {
+  background-color: #fff8f0;
+  text-align: center;
 }
