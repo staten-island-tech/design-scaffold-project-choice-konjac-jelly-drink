@@ -1,6 +1,11 @@
 @import url("./style/variables.css");
-@import url("");
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Scheherazade+New&family=Short+Stack&family=Varela+Round&display=swap");
 
 body{
+    background-color: #EEEADD;
+    font-family: "Scheherazade New", serif;
+}
+
+.header{
     background-color: #EEEADD;
 }
