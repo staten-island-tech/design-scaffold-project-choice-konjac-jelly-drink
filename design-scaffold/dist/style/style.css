@@ -11,5 +11,7 @@ body{
 }
 .header-title{
     text-align: center;
-    : #524339;
+    color: #524339;
+    background-color: #FFF9F6;
+    text-decoration: overline  #EED9AF 3px ;
 }
