@@ -6,10 +6,14 @@
     <title>{{title}}</title>
     <link rel="stylesheet" href="/style/style.css">
 </head>
-    <body>
+
+<body>
     {% include 'nav.njk' %}
-    <h1>{{title}}<h1>
+    <h1 class="header-title"> {{title}}<h1>
+        <article class="main-article">
         {{ content | safe}}
+        <img src="{{image}}"
+        </article>
     </body>
 
 
