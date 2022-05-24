@@ -4,14 +4,39 @@
 body{
     background-color: #EEEADD;
     font-family: "Scheherazade New", serif;
+    font-size: 1.05rem;
+    color: #524339;
 }
+.main-container{
+    text-align: center;
+}
+.main-title{
+    font-size: 2rem;
+}
+.main-first-desc{
+    text-decoration: underline;
+}
+
+
+
+
 
 .header{
     background-color: #EEEADD;
 }
 .header-title{
     text-align: center;
-    color: #524339;
     background-color: #FFF9F6;
-    text-decoration: overline  #EED9AF 3px ;
+    text-decoration: overline underline #EED9AF 3px;
+    padding: 0;
+    margin: 0;
 }
+.main-article{
+    text-align: center;
+}
+.desk-nav{
+    text-align: center;
+}
+
+
+

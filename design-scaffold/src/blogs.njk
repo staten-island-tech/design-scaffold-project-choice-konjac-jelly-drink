@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BLOGS</title>
-    <link rel="stylesheet" href="/style.style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>  
     {% include 'nav.njk' %}
@@ -13,14 +13,12 @@
             {%- for post in collections.post -%}
                 <article class="article">
                     <div class="article.text"> 
-                        <h3 class="article-info">{{post.data.info}}</h3>
                         <h4 class="article-price">{{post.data.price}}</h4>
-                        <h4 class="article-arthur">By {{post.data.arthur}} </h4>
-                        <a class="article.link" href="{{post.url}}">Continue reading</a>
+                        <h4 class="article-arthur">{{post.data.arthur}} </h4>
+                        <a class="article.link" href="{{post.url}}">READ MORE</a>
                     </div>
                     <img src="{{post.data.image}}" alt="" class="img-preview">
                 </article>
-
             {%- endfor -%}
         </ul>
     </section>
