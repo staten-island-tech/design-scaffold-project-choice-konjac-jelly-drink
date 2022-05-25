@@ -21,6 +21,8 @@ body{
 
 
 
+
+
 .header{
     background-color: #EEEADD;
 }
@@ -40,3 +42,39 @@ body{
 
 
 
+
+
+
+.article-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: 1rem auto;
+    padding: 3rem;
+    padding-top: rem;
+}
+.img-preview{
+    height: 30rem;
+}
+.article-link {
+    font-size: 1rem;
+    background-color: #F0DFBD;
+    border-color: #4E4337;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+
+
+
+
+
+
+
+.figure-image{
+    height: 50%;
+    width: 25rem;
+    margin-top: 2rem;
+}
