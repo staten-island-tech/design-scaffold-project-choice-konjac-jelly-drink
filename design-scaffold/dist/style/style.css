@@ -1,6 +1,6 @@
 @import url("./style/variables.css");
 @import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Scheherazade+New&family=Short+Stack&family=Varela+Round&display=swap");
-
+ 
 body{
     background-color: #EEEADD;
     font-family: "Scheherazade New", serif;
@@ -16,13 +16,16 @@ body{
 .main-first-desc{
     text-decoration: underline;
 }
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+.buttons {
+    background-color: #F0DFBD;
+}
+ 
+ 
+ 
 .header{
     background-color: #EEEADD;
 }
@@ -39,12 +42,12 @@ body{
 .desk-nav{
     text-align: center;
 }
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 .article-text{
     display: flex;
     flex-wrap: wrap;
@@ -64,17 +67,43 @@ body{
     border-style: solid;
     border-width: 2px;
 }
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 .figure-image{
     height: 50%;
     width: 25rem;
     margin-top: 2rem;
 }
+
+:root {
+    --white: #fdfbf6;
+    --grey: #d4d2ca;
+    --blue: #8597af;
+    --lightblue: #c4cbd8;
+    --green: rgb(187, 186, 159);
+    --navy: #183251;
+    --dark: #c8c4c4;
+    --beige: rgb(235, 223, 204);
+    --one: rgb(136, 135, 135);
+    --two: #1f2b46;
+  }
+  
+  .light-mode {
+    --primary: var(--white);
+    --secondary: var(--grey);
+    --third: var(--green);
+    --fourth: var(--beige);
+    --fifth: var(--one);
+  }
+  
+  .dark-mode {
+    --primary: var(--lightblue);
+    --secondary: var(--blue);
+    --third: var(--navy);
+    --fourth: var(--dark);
+    --fifth: var(--two);
+  }
