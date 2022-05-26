@@ -1,82 +1,83 @@
 @import url("./style/variables.css");
 @import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Scheherazade+New&family=Short+Stack&family=Varela+Round&display=swap");
- 
-body{
-    background-color: #EEEADD;
-    font-family: "Scheherazade New", serif;
-    font-size: 1.05rem;
-    color: #524339;
+
+body {
+  background-color: #eeeadd;
+  font-family: "Scheherazade New", serif;
+  font-size: 1.05rem;
+  color: #524339;
 }
-.main-container{
-    text-align: center;
+.main-container {
+  text-align: center;
 }
-.main-title{
-    font-size: 2rem;
+.main-title {
+  font-size: 2rem;
 }
-.main-first-desc{
-    text-decoration: underline;
+.main-first-desc {
+  text-decoration: underline;
 }
- 
- 
- 
- 
+
 .buttons {
-    background-color: #F0DFBD;
+  background-color: #f0dfbd;
 }
- 
- 
- 
-.header{
-    background-color: #EEEADD;
+
+.header {
+  background-color: #eeeadd;
 }
-.header-title{
-    text-align: center;
-    background-color: #FFF9F6;
-    text-decoration: overline underline #EED9AF 3px;
-    padding: 0;
-    margin: 0;
+.header-title {
+  text-align: center;
+  background-color: #fff9f6;
+  text-decoration: overline underline #eed9af 3px;
+  padding: 0;
+  margin: 0;
 }
-.main-article{
-    text-align: center;
+.header-link {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1vh;
+  margin: 2rem;
+  color: #524339;
+  font-weight: 800;
+  background-color: #f0dfbd;
+
+  class it here....
 }
-.desk-nav{
-    text-align: center;
+
+
+.main-article {
+  text-align: center;
 }
- 
- 
- 
- 
- 
- 
-.article-text{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 30%;
-    margin: 1rem auto;
-    padding: 3rem;
-    padding-top: rem;
+
+.article-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 30%;
+  margin: 1rem auto;
+  padding: 3rem;
+  padding-top: rem;
 }
-.img-preview{
-    height: 30rem;
+.img-preview {
+  height: 30rem;
+}
+
+.articles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .article-link {
-    font-size: 1rem;
-    background-color: #F0DFBD;
-    border-color: #4E4337;
-    border-style: solid;
-    border-width: 2px;
-}
- 
- 
- 
- 
- 
- 
-.figure-image{
-    height: 50%;
-    width: 25rem;
-    margin-top: 2rem;
+  font-size: 1rem;
+  background-color: #f0dfbd;
+  border-color: #4e4337;
+  border-style: solid;
+  border-width: 2px;
+  text-decoration: none;
+  margin: 1rem;
 }
 
-
+.figure-image {
+  height: 80%;
+  width: 25rem;
+  margin-top: 2rem;
+}
