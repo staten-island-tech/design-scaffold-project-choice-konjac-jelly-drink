@@ -68,3 +68,24 @@ body {
   background-color: #fff8f0;
   text-align: center;
 }
+
+.articles {
+  text-align: center;
+  background-color: #f9efe4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.article-name {
+  font-size: 2rem;
+}
+.article-price {
+  color: rgb(156, 45, 45);
+  font-weight: 1000;
+  font-size: 1.5rem;
+}
+
+.img-preview {
+  width: 25%;
+}
