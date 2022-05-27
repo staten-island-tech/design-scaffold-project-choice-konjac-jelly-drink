@@ -1,0 +1,69 @@
+@import url("./variables.css");
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Scheherazade+New&family=Short+Stack&family=Varela+Round&display=swap");
+*,
+html,
+body {
+  margin: 0;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Scheherazade New", serif;
+  background-color: #fff8f0;
+}
+
+.header-title {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #524339;
+  margin: 1rem auto;
+  text-align: center;
+  text-shadow: 5px 5px 4px rgb(236, 220, 220), 4px 5px 0px rgb(68, 41, 23);
+}
+
+.box {
+  background-color: #f9efe4;
+  height: 100vh;
+}
+
+.header-name {
+  font-weight: 1100;
+  font-size: 4rem;
+  color: rgb(43, 20, 5);
+  font-style: italic;
+  text-align: center;
+  padding: 2rem;
+  text-decoration: underline;
+}
+
+.header-desc {
+  font-size: 3vh;
+  text-align: center;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+.header-link {
+  font-size: 2rem;
+  padding: 1vh;
+  margin: 2rem;
+  color: rgb(47, 17, 4);
+  font-weight: 800;
+}
+
+.header-img {
+  width: 35%;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 40rem;
+  box-shadow: 1rem 1rem 1rem rgb(199, 183, 177);
+}
+
+.buttons {
+  background-color: #ede3d8;
+}
+
+.flowers {
+  background-color: #fff8f0;
+  text-align: center;
+}
