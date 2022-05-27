@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Scheherazade+New&family=Short+Stack&family=Varela+Round&display=swap");
 
 body {
-  background-color: #eeeadd;
+  background-color: var(--primary);
   font-family: "Scheherazade New", serif;
   font-size: 1.05rem;
-  color: #524339;
+  color: var(--fourth);
 }
 .main-container {
   text-align: center;
@@ -18,16 +18,16 @@ body {
 }
 
 .buttons {
-  background-color: #f0dfbd;
+  background-color: var(--third);
 }
 
 .header {
-  background-color: #eeeadd;
+  background-color: var(--primary);
 }
 .header-title {
   text-align: center;
   background-color: #fff9f6;
-  text-decoration: overline underline #eed9af 3px;
+  text-decoration: overline underline var(--fifth) 3px;
   padding: 0;
   margin: 0;
 }
@@ -38,7 +38,7 @@ body {
   margin: 2rem;
   color: #524339;
   font-weight: 800;
-  background-color: #f0dfbd;
+  background-color: var(--third);
 
   class it here....
 }
@@ -68,8 +68,8 @@ body {
 }
 .article-link {
   font-size: 1rem;
-  background-color: #f0dfbd;
-  border-color: #4e4337;
+  background-color: var(--thrid);
+  border-color: var(--fourth);
   border-style: solid;
   border-width: 2px;
   text-decoration: none;
@@ -90,6 +90,8 @@ body {
   –-buttonL: #ede3d8;
   –-buttonD: #f0dfbd;
   --brown: #4e4337;
+  --backgroundL: ;
+  --backgroundD: #eed9af;
 }
  
 .light-mode {
@@ -103,4 +105,5 @@ body {
   –-secondary: var(--boxD);
   –-third: var(--buttonD);
   –-fourth: var(--brown);
+  --fifth: var(--backgroundD);
 }
