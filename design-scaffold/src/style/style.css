@@ -81,3 +81,26 @@ body {
   width: 25rem;
   margin-top: 2rem;
 }
+
+:root {
+  --pink: #fff8f0;
+  --green: #eeeadd;
+  --boxL: #f9efe4;
+  –-boxD: #EEEADD;
+  –-buttonL: #ede3d8;
+  –-buttonD: #f0dfbd;
+  --brown: #4e4337;
+}
+ 
+.light-mode {
+  --primary: var(--pink);
+  –-secondary: var(--boxL);
+  –-third: var(--buttonL);
+  –-fourth: var(--brown);
+}
+.dark-mode {
+  --primary: var(--green);
+  –-secondary: var(--boxD);
+  –-third: var(--buttonD);
+  –-fourth: var(--brown);
+}
