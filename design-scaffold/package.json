@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.njk",
   "scripts": {
-    "build": "  `",
+    "build": "npx @11ty/eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
