@@ -5,29 +5,29 @@ body {
   background-color: var(--primary);
   font-family: "Scheherazade New", serif;
   font-size: 1.05rem;
-  color: var(--fourth);
+  color: #4e4337;
 }
+
+
+
 .main-container {
   text-align: center;
 }
+
 .main-title {
   font-size: 2rem;
+  
 }
 .main-first-desc {
   text-decoration: underline;
 }
-
-.buttons {
-  background-color: var(--third);
-}
-
 .header {
   background-color: var(--primary);
 }
 .header-title {
   text-align: center;
   background-color: #fff9f6;
-  text-decoration: overline underline var(--fifth) 3px;
+  text-decoration: overline underline #eed9af 3px;
   padding: 0;
   margin: 0;
 }
@@ -35,18 +35,35 @@ body {
   text-decoration: none;
   font-size: 2rem;
   padding: 1vh;
-  margin: 2rem;
+  margin: 1rem;
   color: #524339;
-  font-weight: 800;
-  background-color: var(--third);
+  font-weight: 500;
+  background-color: #f0dfbd;
 
   class it here....
 }
 
 
+
+
+
+
+.main-title{
+  font-size: 7rem;
+  font-weight: 700;
+  text-shadow: 5px 5px 4px rgb(236,220,220), 4px 5px 0px rgb(68,41,23)
+}
 .main-article {
   text-align: center;
 }
+
+
+
+
+
+
+
+
 
 .article-text {
   display: flex;
@@ -60,7 +77,6 @@ body {
 .img-preview {
   height: 30rem;
 }
-
 .articles{
   display: flex;
   flex-wrap: wrap;
@@ -76,11 +92,35 @@ body {
   margin: 1rem;
 }
 
+
+
+
+
+
+
+
 .figure-image {
-  height: 80%;
+  height: 60%;
   width: 25rem;
   margin-top: 2rem;
 }
+.flowers {
+  background-color: #fff8f0;
+  text-align: center;
+  width: max-content;
+}
+.buttons {
+  background-color: var(--third);
+}
+
+
+
+
+
+
+
+
+
 
 :root {
   --pink: #fff8f0;
@@ -89,21 +129,28 @@ body {
   –-boxD: #EEEADD;
   –-buttonL: #ede3d8;
   –-buttonD: #f0dfbd;
-  --brown: #4e4337;
-  --backgroundL: ;
-  --backgroundD: #eed9af;
 }
  
 .light-mode {
   --primary: var(--pink);
   –-secondary: var(--boxL);
   –-third: var(--buttonL);
-  –-fourth: var(--brown);
 }
 .dark-mode {
   --primary: var(--green);
   –-secondary: var(--boxD);
   –-third: var(--buttonD);
-  –-fourth: var(--brown);
-  --fifth: var(--backgroundD);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
